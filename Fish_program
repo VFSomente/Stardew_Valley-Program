@@ -1,0 +1,32 @@
+print('Pressione 1 para peixes da Primavera🌺')
+print('Pressione 2 para peixes do Verão☀️')
+print('Pressione 3 para peixes do Outono🎃')
+print('Pressione 4 para peixes do Inverno❄️')
+print('Pressione 5 para peixes da Caverna🗻')
+print('Pressione 6 para peixes da Ilha Gengibre🏝️')
+
+alternativa = (input("Digite sua escolha: "))
+alternativa = int(alternativa)
+
+if alternativa == 1:
+    print('alternativa Primavera🌺:  Anchova = 30 \n Achigã-pequeno = 50 \n Bagre = 200 \n Peixe-sol = 30 \n Arenque = 30 \n Enguia = 85 \n Sardinha = 40 \n Alocine = 60 \n Halibute = 80')
+elif alternativa == 2:
+    print('alternativa Verão☀️: \n Baiacu  = 200 \n Atum = 100 \n Truta arco-íris = 65 \n Bagre = 200 \n Lúcio = 100 \n Peixe-sol = 30 \n Salmonete = 75 \n Polvo = 150 \n Cioba = 50 \n Superpepino = 250 \n Esturjão = 200 \n Tilápia = 75 \n Dourado = 100 \n Liguado = 100 \n Alocine = 60 \n Halibute = 80')
+elif alternativa == 3:
+    print('alternativa Outono🎃: \n Anchova = 30 \n Sardinha = 40 \n Achigã-pequeno = 50 \n Salmão = 76 \n Picão-verde = 105 \n Bagre = 200 \n Enguia = 85 \n Cioba = 50 \n Pepino-do-mar = 75 \n Superpepino = 250 \n Salmão hibrído = 150 \n Tilápia = 75 \n Albacora = 75 \n Carpa da meia-noite = 150 \n Alocine = 60')
+elif alternativa == 4:
+    print('alternativa Inverno❄️: \n Atum = 100 \n Sardinha = 40 \n Perca = 55 \n Lúcio = 100 \n Salmonete = 75 \n Arenque = 30 \n Lula = 80 \n Pepino-do-mar = 75 \n Esturjão = 200 \n Salmão hibrído = 150 \n Albacora = 75 \n Ófis = 120 \n Cioba = 50 \n Halibute = 80 \n Carpa da meia-noite = 150 \n Lula da meia-noite = 100 \n Peixe-bolha = 500 \n Peixe Assustador = 220')
+elif alternativa == 5:
+    print('alternativa Caverna🗻: \n Peixe fantasma = 45 \n Peixe-pedra = 300 \n Chione = 500 \n Enguia de lava = 700')
+elif alternativa == 6:
+    print('Ilha Gengibre🏝️: \n Acará-Disco Azul = 120 \n Peixe-Leão = 100 \n Arraia = 180 \n Superpepino = 250 \n Liguado = 100 \n Carpa da meia-noite = 150 \n Tilápia = 75')
+else:
+    print('Você não escolheu nenhuma das alternativas.')
+peixe = (input('Sabendo dessas informações, qual é o valor do peixe que você deseja saber? '))
+peixe = int(peixe)
+ovas = peixe / 2 + 30
+maturadas = ovas * 2
+cal = 40 / 100 * maturadas
+buff = cal + maturadas
+print('Nesse caso o valor das ovas do seu peixe será {}, já o valor de suas ovas maturadas será {}, porém com habilidade artesão ficaria {}'.format(ovas,maturadas,buff))
+
